@@ -1,0 +1,15 @@
+{
+  "type": "micro",
+  "wake_word": "Hey House",
+  "author": "Joe Hansche",
+  "model": "hey_house.tflite",
+  "trained_languages": ["en"],
+  "version": 2,
+  "micro": {
+    "probability_cutoff": 0.94,
+    "feature_step_size": 10,
+    "sliding_window_size": 5,
+    "tensor_arena_size": 25537,
+    "minimum_esphome_version": "2024.7.0"
+  }
+}
