@@ -2,7 +2,7 @@
   "type": "micro",
   "wake_word": "Hey House",
   "author": "Joe Hansche",
-  "model": "okay_nabu.tflite",
+  "model": "hey_house.tflite",
   "trained_languages": ["en"],
   "version": 2,
   "micro": {
